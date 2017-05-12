@@ -1,0 +1,17 @@
+/* 
+ * Customize the header for front page.
+ */
+@page front-page{
+
+background-image: url('./img/front-page-banner.svg');
+
+    @top-left{
+        content: url('./img/logo-test.svg');
+    }
+    
+    @left-middle {
+        content: url('./img/front-page-test.svg');
+        padding-bottom: 100px;
+    }
+    
+}

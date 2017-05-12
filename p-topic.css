@@ -1,0 +1,30 @@
+@page {
+    size: A4 portrait;
+}
+
+/* Define what is before tags */
+
+*[class~="task/stepxmp"]:before {
+  content: "";
+  /* -task_before- >>> */
+  }
+  
+*[class~="task/info"]:before {
+  content: "";
+  /* -task_before- >>> */
+  }
+  
+*[class~="task/prereq"]:before {
+  content: "Prerequisites: ";
+  /* -task_before- >>> */
+  font-weight: bold; }
+
+/* xref */
+
+*[class~="topic/xref"] {  
+  color: rgb(95,180,170);
+}
+
+*[class~="topic/xref"]:after {  
+  content:"";
+}
